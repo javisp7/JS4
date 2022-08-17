@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4_JS</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="search">
+        <div>
+        <img src="./img/Logo_pizza.png" width="150px" height="auto" alt="" class="logoSuperior">
+        </div>
+            <h4 class="indicaciones">Escribí el gusto que prefieras, da Ok y sabrás su Precio e Ingredientes.</h4>
+            <form id="form">
+            <input
+            type="text" name="texto" autocomplete="off" placeholder="Elegir gusto" class="search-input" id="input"/>
+            <button type="submit" id="darOk">OK</button>
+            </form>
+        <button class="gustos hidden">Mostrar todos los gustos</button>
+    </div>
+    <div class="container"></div>
+    
+    <script src="./js/pizzas.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
